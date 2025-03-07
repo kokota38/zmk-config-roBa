@@ -78,10 +78,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W               &kp E         &kp R     &kp T                                             &lt 1 Y      &lt 2 U  &lt 4 I    &lt 5 O  &kp BACKSPACE
-&kp A               &kp S               &kp D         &kp F     &kp G        &kp LS(LG(S))      &kp MINUS         &kp H        &kp J    &kp K      &kp L    &kp ENTER
-&kp Z               &kp X               &kp C         &kp V     &kp B        &lt 6 ESC          &kp LEFT_BRACKET  &kp N        &kp M    &kp COMMA  &kp DOT  &kp P
-&mt LEFT_SHIFT TAB  &mt LCTRL LEFT_ALT  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2           &lt 2 BACKSPACE   &lt 1 ENTER                               &kp K_APP
+&lt 6 Q             &kp W               &kp E         &kp R     &kp T                                                 &lt 1 Y      &lt 2 U  &lt 4 I    &lt 5 O  &kp P
+&kp A               &kp S               &kp D         &kp F     &kp G        &kp LS(LG(S))           &kp ENTER        &kp H        &kp J    &kp K      &kp L    &kp MINUS
+&kp Z               &kp X               &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESC      &kp BACKSPACE    &kp N        &kp M    &kp COMMA  &kp DOT  &kp LEFT_BRACKET
+&mt LEFT_SHIFT TAB  &mt LCTRL LEFT_ALT  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                &lt 2 BACKSPACE  &lt 1 ENTER                               &kp K_APP
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -133,10 +133,10 @@
 
         SCROLL {
             bindings = <
-&kp LC(LA(DEL))  &trans              &kp LG(UP_ARROW)  &trans               &trans                           &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-&trans           &kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(RIGHT_ARROW)  &trans  &trans      &kp UNDER    &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&trans           &trans              &trans            &trans               &trans  &trans      &kp AT_SIGN  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
-&trans           &trans              &trans            &trans               &trans  &trans      &kp LANG2    &kp LANG1                                               &kp SLASH
+&kp LC(LA(DEL))  &trans              &kp LG(UP_ARROW)  &trans               &trans                           &kp SLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans           &kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(RIGHT_ARROW)  &trans  &trans      &kp UNDER    &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
+&trans           &trans              &trans            &trans               &trans  &trans      &kp AT_SIGN  &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+&trans           &trans              &trans            &trans               &trans  &trans      &kp LANG2    &kp LANG1                                            &kp PLUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
