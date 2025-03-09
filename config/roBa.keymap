@@ -79,8 +79,8 @@
         default_layer {
             bindings = <
 &lt 6 Q             &kp W               &kp E         &kp R     &kp T                                                  &lt 1 Y            &lt 2 U  &lt 4 I    &lt 5 O  &kp P
-&kp A               &kp S               &kp D         &kp F     &kp G        &kp LS(LG(S))           &kp MINUS         &kp H              &kp J    &kp K      &kp L    &kp ENTER
-&kp Z               &kp X               &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESC      &kp LEFT_BRACKET  &kp N              &kp M    &kp COMMA  &kp DOT  &kp BACKSPACE
+&kp A               &kp S               &kp D         &kp F     &kp G        &kp LS(LG(S))           &kp MINUS         &kp H              &kp J    &kp K      &kp L    &kp BACKSPACE
+&kp Z               &kp X               &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESC      &kp LEFT_BRACKET  &kp N              &kp M    &kp COMMA  &kp DOT  &kp ENTER
 &mt LEFT_SHIFT TAB  &mt LCTRL LEFT_ALT  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                &lt 2 LEFT_ARROW  &lt 1 RIGHT_ARROW                               &kp K_APP
             >;
 
@@ -123,8 +123,8 @@
         MOUSE {
             bindings = <
 &to_layer_0 Q         &to_layer_0 W              &to_layer_0 E              &to_layer_0 R  &to_layer_0 T                                               &to_layer_0 Y      &to_layer_0 U  &to_layer_0 I      &to_layer_0 O       &to_layer_0 P
-&to_layer_0 A         &to_layer_0 S              &to_layer_0 D              &to_layer_0 F  &to_layer_0 G  &trans        &lt_to_layer_0 0 MINUS         &to_layer_0 H      &mkp MB1       &mkp MB3           &mkp MB2            &to_layer_0 ENTER
-&to_layer_0 Z         &to_layer_0 X              &to_layer_0 C              &to_layer_0 V  &to_layer_0 B  &to 0         &lt_to_layer_0 0 LEFT_BRACKET  &to_layer_0 N      &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &to_layer_0 BACKSPACE
+&to_layer_0 A         &to_layer_0 S              &to_layer_0 D              &to_layer_0 F  &to_layer_0 G  &trans        &lt_to_layer_0 0 MINUS         &to_layer_0 H      &mkp MB1       &mkp MB3           &mkp MB2            &to_layer_0 BACKSPACE
+&to_layer_0 Z         &to_layer_0 X              &to_layer_0 C              &to_layer_0 V  &to_layer_0 B  &to 0         &lt_to_layer_0 0 LEFT_BRACKET  &to_layer_0 N      &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &to_layer_0 ENTER
 &lt_to_layer_0 0 TAB  &lt_to_layer_0 0 LEFT_ALT  &lt_to_layer_0 0 LEFT_WIN  &mkp MB1       &lt 5 SPACE    &mkp MB2      &lt 2 LEFT_ARROW               &lt 1 RIGHT_ARROW                                                        &to 0
             >;
 
