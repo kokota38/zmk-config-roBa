@@ -78,7 +78,7 @@
 
         default_layer {
             bindings = <
-&lt 6 Q             &kp W               &kp E         &kp R     &kp T                                                  &lt 1 Y      &lt 2 U  &lt 4 I    &lt 5 O  &kp BACKSPACE
+&lt 6 Q             &kp W               &kp E         &kp R     &kp T                                                  &lt 2 Y      &lt 3 U  &lt 4 I    &lt 5 O  &kp BACKSPACE
 &kp A               &kp S               &kp D         &kp F     &kp G        &kp LS(LG(S))           &kp MINUS         &kp H        &kp J    &kp K      &kp L    &kp ENTER
 &kp Z               &kp X               &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESC      &kp LEFT_BRACKET  &kp N        &kp M    &kp COMMA  &kp DOT  &kp P
 &mt LEFT_SHIFT TAB  &mt LCTRL LEFT_ALT  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                &lt 2 BACKSPACE   &lt 1 ENTER                               &kp K_APP
@@ -100,10 +100,10 @@
 
         FUNCTION {
             bindings = <
-&kp LA(LC(DEL))  &trans          &kp UP_ARROW        &trans           &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans           &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT_ARROW  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans           &trans          &kp LA(DOWN_ARROW)  &trans           &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans           &trans          &trans              &trans           &trans  &trans      &trans   &trans                          &kp F12
+&kp LA(LC(DEL))  &trans              &kp LS(UP_ARROW)    &trans               &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans           &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans           &trans              &kp LA(DOWN_ARROW)  &trans               &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans           &trans              &trans              &trans               &trans  &trans      &trans   &trans                          &kp F12
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -111,10 +111,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW        &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW      &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp LA(DOWN_ARROW)  &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans              &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
