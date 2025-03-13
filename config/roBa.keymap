@@ -78,10 +78,10 @@
 
         default_layer {
             bindings = <
-&lt 6 Q       &kp W          &kp E         &kp R     &kp T                                                  &lt 2 Y      &lt 3 U  &lt 4 I    &lt 5 O  &kp P
-&kp A         &kp S          &kp D         &kp F     &kp G        &kp LS(LG(S))           &kp MINUS         &kp H        &kp J    &kp K      &kp L    &kp ENTER
-&kp Z         &kp X          &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESC      &kp LEFT_BRACKET  &kp N        &kp M    &kp COMMA  &kp DOT  &kp BACKSPACE
-&kp LEFT_ALT  &mt LCTRL TAB  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                &lt 2 BACKSPACE   &lt 1 ENTER                               &kp K_APP
+&lt 6 Q       &kp W          &kp E         &kp R     &kp T                                                  &lt 2 Y          &lt 3 U  &lt 4 I    &lt 5 O  &kp P
+&kp A         &kp S          &kp D         &kp F     &kp G        &kp LS(LG(S))           &kp MINUS         &kp H            &kp J    &kp K      &kp L    &kp ENTER
+&kp Z         &kp X          &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESC      &kp LEFT_BRACKET  &kp N            &kp M    &kp COMMA  &kp DOT  &lt 2 ENTER
+&kp LEFT_ALT  &mt LCTRL TAB  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                &kp BACKSPACE     &lt 1 BACKSPACE                               &kp K_APP
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -89,10 +89,10 @@
 
         NUM {
             bindings = <
-&kp LC(LA(DEL))  &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                                                     &trans        &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp PIPE         &kp SINGLE_QUOTE   &kp COLON         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &trans        &kp DOLLAR       &kp PERCENT   &kp CARET             &kp TILDE
-&kp BACKSLASH    &kp DOUBLE_QUOTES  &kp SEMICOLON     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL                    &kp AT_SIGN     &kp QUESTION  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp GRAVE
-&trans           &trans             &trans            &trans                &trans                 &trans                       &trans          &trans                                                             &trans
+&kp LC(LA(DEL))  &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                                                     &kp SLASH          &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp PIPE         &kp SINGLE_QUOTE   &kp COLON         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp DOLLAR       &kp PERCENT   &kp CARET             &kp TILDE
+&kp BACKSLASH    &kp DOUBLE_QUOTES  &kp SEMICOLON     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL                    &kp AT_SIGN     &kp QUESTION       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp GRAVE
+&trans           &trans             &trans            &trans                &trans                 &trans                       &trans          &trans                                                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
