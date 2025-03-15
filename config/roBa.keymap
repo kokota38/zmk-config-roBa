@@ -78,10 +78,10 @@
 
         default_layer {
             bindings = <
-&lt 6 Q       &kp W          &kp E         &kp R     &kp T                                                  &lt 2 Y          &lt 3 U  &lt 4 I    &lt 5 O  &kp P
-&kp A         &kp S          &kp D         &kp F     &kp G        &kp LS(LG(S))           &kp MINUS         &kp H            &kp J    &kp K      &kp L    &kp ENTER
-&kp Z         &kp X          &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESC      &kp LEFT_BRACKET  &kp N            &kp M    &kp COMMA  &kp DOT  &lt 2 ENTER
-&kp LEFT_ALT  &mt LCTRL TAB  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                &kp BACKSPACE     &lt 1 BACKSPACE                               &kp K_APP
+&lt 6 Q                  &kp W          &kp E         &kp R     &kp T                                                          &lt 2 Y          &lt 3 U  &lt 4 I    &lt 5 O  &kp P
+&kp A                    &kp S          &kp D         &kp F     &kp G        &kp LS(LG(C_AC_SCROLL_UP))      &kp MINUS         &kp H            &kp J    &kp K      &kp L    &kp ENTER
+&kp Z                    &kp X          &kp C         &kp V     &kp B        &kp K_SCROLL_DOWN               &kp LEFT_BRACKET  &kp N            &kp M    &kp COMMA  &kp DOT  &lt 2 ESC
+&mt LEFT_SHIFT LEFT_ALT  &mt LCTRL TAB  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                        &kp BACKSPACE     &lt 1 BACKSPACE                               &kp K_APP
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -133,10 +133,10 @@
 
         SCROLL {
             bindings = <
-&kp LC(LA(DEL))  &trans              &kp LG(UP_ARROW)  &trans               &trans                           &kp SLASH  &kp N7  &kp N8  &kp N9  &kp ASTRK
-&trans           &kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(RIGHT_ARROW)  &trans  &trans      &kp UNDER    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp PLUS
-&trans           &trans              &trans            &trans               &trans  &trans      &kp AT_SIGN  &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp NUMBER_0
-&trans           &trans              &trans            &trans               &trans  &trans      &kp LANG2    &kp LANG1                          &kp N0
+&kp LC(LA(DEL))  &trans              &kp LG(UP_ARROW)  &trans               &trans                                    &kp SLASH  &kp N7  &kp N8  &kp N9  &kp ASTRK
+&trans           &kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(RIGHT_ARROW)  &trans  &kp C_VOLUME_UP      &kp UNDER    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp PLUS
+&trans           &trans              &trans            &trans               &trans  &kp C_VOL_DN         &kp AT_SIGN  &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp NUMBER_0
+&trans           &trans              &trans            &trans               &trans  &trans               &kp LANG2    &kp LANG1                          &kp N0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
