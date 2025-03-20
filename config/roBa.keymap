@@ -27,11 +27,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -78,10 +73,10 @@
 
         default_layer {
             bindings = <
-&lt 6 Q                  &kp W          &kp E         &kp R     &kp T                                                     &lt 2 Y          &lt 3 U  &lt 4 I    &lt 5 O  &kp P
-&kp A                    &kp S          &kp D         &kp F     &kp G        &kp LEFT_GUI               &kp MINUS         &kp H            &kp J    &kp K      &kp L    &kp ENTER
-&kp Z                    &kp X          &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESCAPE      &kp LEFT_BRACKET  &kp N            &kp M    &kp COMMA  &kp DOT  &lt 2 ENTER
-&mt LEFT_SHIFT LEFT_ALT  &mt LCTRL TAB  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                   &kp BACKSPACE     &lt 1 BACKSPACE                               &mt RIGHT_SHIFT K_APPLICATION
+&lt 6 Q                  &kp W          &kp E         &kp R     &kp T                                                     &lt 2 Y      &lt 3 U  &lt 4 I    &lt 5 O  &kp P
+&kp A                    &kp S          &kp D         &kp F     &kp G        &kp K_CONTEXT_MENU         &kp MINUS         &kp H        &kp J    &kp K      &kp L    &kp ENTER
+&kp Z                    &kp X          &kp C         &kp V     &kp B        &mt LEFT_SHIFT ESCAPE      &kp LEFT_BRACKET  &kp N        &kp M    &kp COMMA  &kp DOT  &lt 2 BACKSPACE
+&mt LEFT_SHIFT LEFT_ALT  &mt LCTRL TAB  &kp LEFT_WIN  &mkp MB1  &lt 5 SPACE  &mkp MB2                   &kp BACKSPACE     &lt 1 ENTER                               &mkp MB1
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -123,8 +118,8 @@
         MOUSE {
             bindings = <
 &to_layer_0 Q         &to_layer_0 W              &to_layer_0 E              &to_layer_0 R  &to_layer_0 T                                               &to_layer_0 Y      &to_layer_0 U  &to_layer_0 I      &to_layer_0 O  &to_layer_0 P
-&to_layer_0 A         &to_layer_0 S              &to_layer_0 D              &to_layer_0 F  &to_layer_0 G  &trans        &lt_to_layer_0 0 MINUS         &to_layer_0 H      &mkp MB1       &mkp MB3           &mkp MB2       &to_layer_0 BACKSPACE
-&to_layer_0 Z         &to_layer_0 X              &to_layer_0 C              &to_layer_0 V  &to_layer_0 B  &to 0         &lt_to_layer_0 0 LEFT_BRACKET  &to_layer_0 N      &mkp MB4       &to_layer_0 COMMA  &mkp MB5       &to_layer_0 ENTER
+&to_layer_0 A         &to_layer_0 S              &to_layer_0 D              &to_layer_0 F  &to_layer_0 G  &trans        &lt_to_layer_0 0 MINUS         &to_layer_0 H      &mkp MB1       &mkp MB3           &mkp MB2       &to_layer_0 ENTER
+&to_layer_0 Z         &to_layer_0 X              &to_layer_0 C              &to_layer_0 V  &to_layer_0 B  &to 0         &lt_to_layer_0 0 LEFT_BRACKET  &to_layer_0 N      &mkp MB4       &to_layer_0 COMMA  &mkp MB5       &to_layer_0 BACKSPACE
 &lt_to_layer_0 0 TAB  &lt_to_layer_0 0 LEFT_ALT  &lt_to_layer_0 0 LEFT_WIN  &mkp MB1       &lt 5 SPACE    &mkp MB2      &lt 2 LEFT_ARROW               &lt 1 RIGHT_ARROW                                                   &to 0
             >;
 
@@ -133,10 +128,10 @@
 
         SCROLL {
             bindings = <
-&kp LC(LA(DEL))  &trans              &kp LG(UP_ARROW)  &trans               &trans                               &kp SLASH  &kp N7  &kp N8  &kp N9  &kp ASTRK
-&trans           &kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(RIGHT_ARROW)  &trans  &kp K_MUTE      &kp UNDER    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp PLUS
-&trans           &trans              &trans            &trans               &trans  &trans          &kp AT_SIGN  &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp NUMBER_0
-&trans           &trans              &trans            &trans               &trans  &trans          &kp LANG2    &kp LANG1                          &kp N0
+&kp LC(LA(DEL))  &kp LG(LEFT_ARROW)  &kp UP_ARROW        &kp LG(RIGHT_ARROW)  &trans                               &kp SLASH  &kp N7  &kp N8  &kp N9  &kp ASTRK
+&trans           &kp LEFT_ARROW      &kp DOWN            &kp RIGHT_ARROW      &trans  &kp K_MUTE      &kp UNDER    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp PLUS
+&trans           &kp LS(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans  &trans          &kp AT_SIGN  &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp NUMBER_0
+&trans           &trans              &trans              &trans               &trans  &trans          &kp LANG2    &kp LANG1                          &kp N0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
